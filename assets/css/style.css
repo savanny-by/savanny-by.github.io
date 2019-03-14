@@ -3,17 +3,31 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: midnightblue;
+  color: rgb(222, 222, 226);
 }
 
 .middle {
-  background-color: black;
-  opacity: 0.5;
   text-align: center;
   width: 33%;
   margin: 20vh auto 0;
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 50vh;
+}
+
+.round {
+  border-radius: 50%;
+  opacity: 1;
+  height: 100px;
+  width: 100px;
+}
+
+.bio {
+  color: white;
+  font-size: 20px;
+}
+
+.social-link {
+  background-color: white;
+  border-radius: 6px;
 }
