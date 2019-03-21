@@ -10,16 +10,17 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   width: 33%;
   margin: 20vh auto 0;
+  padding: 90px;
   align-items: center;
   justify-content: center;
-  height: 50vh;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .round {
   border-radius: 50%;
   opacity: 1;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 
 .bio {
